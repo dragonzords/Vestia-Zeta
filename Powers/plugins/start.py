@@ -11,7 +11,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 
 from Powers import (HELP_COMMANDS, LOGGER, OWNER_ID, PREFIX_HANDLER,
                     PYROGRAM_VERSION, PYTHON_VERSION, UPTIME, VERSION)
-from Powers.bot_class import Gojo
+from Powers.bot_class import {Gojo}
 from Powers.database.captcha_db import CAPTCHA_DATA
 from Powers.supports import get_support_staff
 from Powers.utils.custom_filters import command
@@ -34,7 +34,7 @@ Your donation might also me get me a new feature or two, which I wasn't able to 
 
 All the fund would be put into my services such as database, storage and hosting!
 
-You can donate by contacting my owner: [Captain D. Ezio](http://t.me/iamgojoof6eyes)
+You can donate by contacting my owner: [Lynx](http://t.me/itsmelynxs)
      """
 
     await m.reply_photo(photo=str(choice(StartPic)), caption=cpt)
@@ -143,7 +143,7 @@ Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am {c.me.f
 I'm here to help you manage your group(s)!
 Hit /help to find out more about how to use me in my full potential!
 
-Join my [News Channel](https://t.me/gojo_bots_network) to get information on all the latest updates."""
+Join my [News Channel](https://t.me/LynxBotList) to get information on all the latest updates."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -182,7 +182,7 @@ Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am {c.me.f
 I'm here to help you manage your group(s)!
 Hit /help to find out more about how to use me in my full potential!
 
-Join my [News Channel](http://t.me/gojo_bots_network) to get information on all the latest updates."""
+Join my [News Channel](http://t.me/LynxBotList) to get information on all the latest updates."""
 
         await q.edit_message_caption(
             caption=cpt,
