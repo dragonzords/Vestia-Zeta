@@ -62,11 +62,11 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id defult to mine
-    MESSAGE_DUMP = 0  # Your Private Group ID for logs if not passed your owner id will be msg dump
+    BOT_TOKEN = "7948117552:AAHxUx6xjkFvOVrTbcN-B1KRTw4VHBfbZM4"
+    API_ID = 6  # Your APP_ID from Telegram
+    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
+    OWNER_ID = 6942457756  # Your telegram user id defult to mine
+    MESSAGE_DUMP = -1002254300100  # Your Private Group ID for logs if not passed your owner id will be msg dump
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
@@ -76,8 +76,8 @@ class Development:
     GENIUS_API_TOKEN = ""
     RMBG_API = ""
     PREFIX_HANDLER = ["!", "/", "$"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "lynxprjkts"
+    SUPPORT_CHANNEL = "LynxBotlist"
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = ""
